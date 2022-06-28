@@ -1,5 +1,7 @@
+import { PublicLayout } from './publicLayout'
+
 const useLayouts = () => {
-  return {}
+  return { PublicLayout }
 }
 
 export { useLayouts }

@@ -1,5 +1,7 @@
+import LogoIcon from './Logo.svg'
+
 const useIcons = () => {
-  return {}
+  return { LogoIcon }
 }
 
 export { useIcons }

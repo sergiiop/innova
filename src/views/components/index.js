@@ -1,5 +1,7 @@
+import { Header } from './Header'
+
 const useComponents = () => {
-  return {}
+  return { Header }
 }
 
 export { useComponents }

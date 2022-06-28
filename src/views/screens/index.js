@@ -1,5 +1,7 @@
+import { Home } from './Home'
+
 const useScreen = () => {
-  return {}
+  return { Home }
 }
 
 export { useScreen }
