@@ -20,7 +20,13 @@ export const ServicesContainer = styled.div`
   }
 `
 
-export const ServiceContent = styled.article``
+export const ServiceContent = styled.article`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 300px;
+`
 
 export const Image = styled.img`
   border-radius: 1rem;

@@ -16,14 +16,17 @@ const Header = () => {
   const { LogoIcon } = useIcons()
   const [active, setActive] = useState(INITIAL)
 
+  const handleClick = () => {
+    setActive(!active)
+  }
   return (
     <HeaderContainer>
       <RightContainer>
         <LogoContain src={LogoIcon} />
         <Span>INNOVA CIENCIA Y TECNOLOGIA</Span>
       </RightContainer>
-      <Navbar active={active} />
-      <MenuIcon setActive={setActive} active={active} />
+      <Navbar active={active} handleClick={handleClick} />
+      <MenuIcon handleClick={handleClick} active={active} />
     </HeaderContainer>
   )
 }

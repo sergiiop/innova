@@ -1,17 +1,23 @@
 import { NavbarContainer, NavbarContentContainer } from './Navbar.styled'
 
-const Navbar = ({ active }) => {
+const Navbar = ({ active, handleClick }) => {
   return (
     <NavbarContainer className={active ? 'active' : ''}>
       <NavbarContentContainer>
         <li>
-          <a href=''>Nosotros</a>
+          <a onClick={handleClick} href='#nosotros'>
+            Nosotros
+          </a>
         </li>
         <li>
-          <a href=''>Nuestros Servicios</a>
+          <a onClick={handleClick} href='#services'>
+            Nuestros Servicios
+          </a>
         </li>
         <li>
-          <a href=''>Contactanos</a>
+          <a onClick={handleClick} href='#contacto'>
+            Contactanos
+          </a>
         </li>
       </NavbarContentContainer>
     </NavbarContainer>

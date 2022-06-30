@@ -21,4 +21,7 @@ export const ContentContainer = styled.div`
 
 export const FirstContainer = styled.div``
 
-export const SecondContainer = styled.div``
+export const SecondContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`

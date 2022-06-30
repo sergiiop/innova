@@ -8,7 +8,7 @@ import {
 
 export const ContactInformation = () => {
   return (
-    <InformationContainer className='container'>
+    <InformationContainer id='contacto' className='container'>
       <TitleComponent>Informacion de Contacto</TitleComponent>
       <ContentContainer>
         <FirstContainer>

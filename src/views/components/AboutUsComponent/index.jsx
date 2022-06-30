@@ -5,11 +5,13 @@ import { TitleComponent } from '../TitleComponent'
 const AboutUsComponent = () => {
   const { AboutUs } = useImages()
   return (
-    <AboutUsContainer className='container'>
+    <AboutUsContainer id='nosotros' className='container'>
       <TitleComponent>INNOVA CIENCIA Y TECNOLOGIA</TitleComponent>
       <AboutUsImg src={AboutUs} />
       <p>
-      Esta empresa fué constituida como SOCIEDAD POR ACCIONES SIMPLIFICADA y se dedica a Investigaciones y desarrollo experimental en el campo de las ciencias sociales y las humanidades.
+        Esta empresa fué constituida como SOCIEDAD POR ACCIONES SIMPLIFICADA y
+        se dedica a Investigaciones y desarrollo experimental en el campo de las
+        ciencias sociales y las humanidades.
       </p>
     </AboutUsContainer>
   )
