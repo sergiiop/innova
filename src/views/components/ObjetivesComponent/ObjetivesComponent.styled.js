@@ -9,7 +9,7 @@ export const ObjetivesContainer = styled.section`
 `
 
 export const Container = styled.div`
-  width: 170px;
+  width: 250px;
   display: flex;
   flex-direction: column;
   gap: 0.7rem;

@@ -11,6 +11,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  color: #053396;
+}
+
 ul {
   list-style: none;
 }
@@ -26,6 +30,10 @@ img {
 input {
   border: none;
   outline: none;
+  background-color: #446ca7;
+  width: 80%;
+  height: 2rem;
+  padding: 0.2rem 0 0.2rem 1rem;
 }
 
 button {
@@ -34,4 +42,12 @@ button {
 
 .container {
   padding: 0 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+span {
+  font-size: 1.4rem;
 }

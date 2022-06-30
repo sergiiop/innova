@@ -5,8 +5,11 @@ export const OurServicesContainer = styled.section`
 `
 
 export const ServicesContainer = styled.div`
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 `
 
 export const ServiceContent = styled.article``

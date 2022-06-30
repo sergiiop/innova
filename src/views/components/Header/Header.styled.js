@@ -18,3 +18,7 @@ export const RightContainer = styled.div`
   gap: 10px;
   margin-left: 10px;
 `
+
+export const Span = styled.span`
+  font-size: 1rem;
+`

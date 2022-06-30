@@ -1,29 +1,33 @@
 import { TitleComponent } from '../TitleComponent'
-import { FormContainer } from './ContactForm.styled'
+import {
+  Button,
+  FormContainer,
+  InputContainer,
+  TextArea
+} from './ContactForm.styled'
 
 export const ContactForm = () => {
   return (
     <FormContainer className='container'>
       <TitleComponent>Contactanos:</TitleComponent>
       <form>
-        <div>
+        <InputContainer>
           <label>Nombre: </label>
           <input type='text' />
-        </div>
-        <div>
+        </InputContainer>
+        <InputContainer>
           <label>Email: </label>
           <input type='email' />
-        </div>
-        <div>
+        </InputContainer>
+        <InputContainer>
           <label>Asunto: </label>
           <input type='text' />
-        </div>
-        <div>
+        </InputContainer>
+        <InputContainer>
           <label>Mensaje: </label>
-          <textarea />
-        </div>
-
-        <button type='submit'></button>
+          <TextArea />
+        </InputContainer>
+        <Button type='submit'>Enviar</Button>
       </form>
     </FormContainer>
   )

@@ -1,8 +1,4 @@
-import {
-  AboutUsContainer,
-  AboutUsImg,
-  AboutUsParagraph
-} from './AboutUsComponent.styled'
+import { AboutUsContainer, AboutUsImg } from './AboutUsComponent.styled'
 import { useImages } from '../../../assets/useImages'
 import { TitleComponent } from '../TitleComponent'
 
@@ -12,7 +8,7 @@ const AboutUsComponent = () => {
     <AboutUsContainer className='container'>
       <TitleComponent>INNOVA CIENCIA Y TECNOLOGIA</TitleComponent>
       <AboutUsImg src={AboutUs} />
-      <AboutUsParagraph>
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae at non
         pretium vitae tristique egestas. Pharetra, mattis purus, sit nunc,
         tellus vitae magna. Vitae adipiscing cursus amet, risus. Ut et aliquam
@@ -24,7 +20,7 @@ const AboutUsComponent = () => {
         ut. Semper consequat morbi cursus ut. Cursus non, euismod integer id
         urna sodales ornare ultrices. Imperdiet suscipit enim orci, sed praesent
         elementum. Dolor urna, augue senectus proin nunc, volutpat suspendisse.
-      </AboutUsParagraph>
+      </p>
     </AboutUsContainer>
   )
 }

@@ -3,7 +3,12 @@ import { useState } from 'react'
 import { useIcons } from '../../../assets/useIcons'
 import { MenuIcon } from '../MenuIcon'
 import { Navbar } from '../Navbar'
-import { HeaderContainer, LogoContain, RightContainer } from './Header.styled'
+import {
+  HeaderContainer,
+  LogoContain,
+  RightContainer,
+  Span
+} from './Header.styled'
 
 const INITIAL = false
 
@@ -15,7 +20,7 @@ const Header = () => {
     <HeaderContainer>
       <RightContainer>
         <LogoContain src={LogoIcon} />
-        <p>INNOVA CIENCIA Y TECNOLOGIA</p>
+        <Span>INNOVA CIENCIA Y TECNOLOGIA</Span>
       </RightContainer>
       <Navbar active={active} />
       <MenuIcon setActive={setActive} active={active} />
