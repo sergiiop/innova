@@ -1,6 +1,7 @@
 import React from 'react'
 import { TitleComponent } from '../TitleComponent'
 import {
+  Image,
   OurServicesContainer,
   ServiceContent,
   ServicesContainer
@@ -30,7 +31,7 @@ const OurServicesComponent = () => {
         {servicesData.map((service, index) => {
           return (
             <ServiceContent key={index}>
-              <img src={service.img}></img>
+              <Image src={service.img}></Image>
             </ServiceContent>
           )
         })}

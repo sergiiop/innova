@@ -17,6 +17,9 @@ export const MenuContainer = styled.div`
     top: 20px;
     left: 50px;
   }
+  @media screen and (min-width: 600px) {
+    display: none;
+  }
 `
 
 export const Lines = styled.span`

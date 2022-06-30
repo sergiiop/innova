@@ -6,8 +6,12 @@ export const AboutUsContainer = styled.section`
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  align-self: center;
+  max-width: 1200px;
 `
 
 export const AboutUsTitle = styled.h2``
 
-export const AboutUsImg = styled.img``
+export const AboutUsImg = styled.img`
+  width: 1020px;
+`

@@ -6,6 +6,11 @@ export const ObjetivesContainer = styled.section`
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  max-width: 1200px;
+  align-self: center;
+  @media screen and (min-width: 1000px) {
+    flex-direction: row;
+  }
 `
 
 export const Container = styled.div`

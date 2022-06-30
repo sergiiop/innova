@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 export const FormContainer = styled.section`
   padding-top: 5rem;
+  align-self: center;
+  @media screen and (min-width: 600px) {
+    width: 500px;
+  }
 `
 
 export const InputContainer = styled.div`

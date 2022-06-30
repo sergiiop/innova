@@ -1,4 +1,9 @@
-import { HeroContainer, HeroImg, HeroParagraph } from './HeroComponent.styled'
+import {
+  HeroContainer,
+  HeroContent,
+  HeroImg,
+  HeroParagraph
+} from './HeroComponent.styled'
 import { useImages } from '../../../assets/useImages'
 
 const HeroComponent = () => {
@@ -6,9 +11,11 @@ const HeroComponent = () => {
   return (
     <HeroContainer>
       <HeroImg src={Hero} />
-      <HeroParagraph>
-        INNOVA <br /> CIENCIA Y<br /> TECNOLOGIA
-      </HeroParagraph>
+      <HeroContent>
+        <HeroParagraph>
+          INNOVA <br /> CIENCIA Y<br /> TECNOLOGIA
+        </HeroParagraph>
+      </HeroContent>
     </HeroContainer>
   )
 }

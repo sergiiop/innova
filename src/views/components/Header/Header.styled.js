@@ -16,9 +16,16 @@ export const RightContainer = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: 10px;
+  margin-left: 1rem;
+  @media screen and (min-width: 600px) {
+    margin-left: 4rem;
+  }
 `
 
 export const Span = styled.span`
   font-size: 1rem;
+  font-weight: bold;
+  @media screen and (min-width: 600px) {
+    font-size: 2rem;
+  }
 `

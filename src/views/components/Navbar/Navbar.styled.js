@@ -11,6 +11,13 @@ export const NavbarContainer = styled.nav`
   &.active {
     top: 0;
   }
+  @media screen and (min-width: 600px) {
+    position: static;
+    background: transparent;
+    height: fit-content;
+    width: fit-content;
+    padding-right: 4rem;
+  }
 `
 
 export const NavbarContentContainer = styled.ul`
@@ -24,4 +31,8 @@ export const NavbarContentContainer = styled.ul`
   font-size: 1.6rem;
   line-height: 19px;
   font-weight: 400;
+  @media screen and (min-width: 600px) {
+    position: static;
+    flex-direction: row;
+  }
 `
