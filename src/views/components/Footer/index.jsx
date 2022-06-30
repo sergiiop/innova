@@ -8,12 +8,11 @@ export const Footer = () => {
       </Span>
       <Span>
         © INNOVA CIENCIA Y TECNOLOGIA es propiedad de INNOVA CIENCIA Y
-        TECNOLOGIA
+        TECNOLOGIA S A S
       </Span>
-      <Span>© INNOVA CIENCIA Y TECNOLOGIA es propiedad de --------</Span>
       <Span>© Nit: 9 0 1 5 5 1 0 0 1 1</Span>
       <Span>
-        © Dirección Cll -- No ---- # --, Barrio --------- Montería - Córdoba -
+        © Dirección CARRERA 5 S 83 40 LOCAL 11, IBAGUE - TOLIMA -
         Colombía
       </Span>
       <Span>Diseñado y Desarrollado JSDesignCreation</Span>
