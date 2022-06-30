@@ -1,9 +1,10 @@
+import { TitleComponent } from '../TitleComponent'
 import { FormContainer } from './ContactForm.styled'
 
 export const ContactForm = () => {
   return (
     <FormContainer className='container'>
-      <h2>Contactanos:</h2>
+      <TitleComponent>Contactanos:</TitleComponent>
       <form>
         <div>
           <label>Nombre: </label>

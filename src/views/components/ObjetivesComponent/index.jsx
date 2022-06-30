@@ -20,7 +20,7 @@ const ObjetivesData = [
 
 const ObjetivesComponent = () => {
   return (
-    <ObjetivesContainer>
+    <ObjetivesContainer className='container'>
       {ObjetivesData.map((objetive, index) => {
         return (
           <Container key={index}>
