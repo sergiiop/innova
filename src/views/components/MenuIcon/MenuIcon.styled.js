@@ -11,6 +11,7 @@ export const MenuContainer = styled.div`
   position: relative;
   transition: all 0.5s;
   margin-right: 10px;
+  z-index: 8;
   &.active {
     position: absolute;
     top: 20px;

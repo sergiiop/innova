@@ -3,6 +3,7 @@ import styled from 'styled-components'
 export const LogoContain = styled.img`
   width: 40px;
   height: 30px;
+  object-fit: contain;
 `
 export const HeaderContainer = styled.header`
   height: 43px;

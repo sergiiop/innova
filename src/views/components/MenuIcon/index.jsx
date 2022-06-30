@@ -2,7 +2,6 @@ import { Lines, MenuContainer } from './MenuIcon.styled'
 
 const MenuIcon = ({ active, setActive }) => {
   const handleClick = () => {
-    console.log('hola')
     setActive(!active)
   }
   return (

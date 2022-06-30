@@ -7,6 +7,7 @@ export const NavbarContainer = styled.nav`
   background: #5d7aab;
   position: fixed;
   transition: all 0.5s;
+  z-index: 5;
   &.active {
     top: 0;
   }
